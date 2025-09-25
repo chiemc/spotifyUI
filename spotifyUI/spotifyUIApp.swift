@@ -11,7 +11,8 @@ import SwiftUI
 struct spotifyUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostView()
+                .preferredColorScheme(.dark)
         }
     }
 }
